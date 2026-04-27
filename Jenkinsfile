@@ -12,7 +12,7 @@ pipeline{
     stage('Build'){
       steps{
         dir('newwslack'){
-          bat 'mvn clean install'
+          bat 'mvn clean instal'
         }
       }
     }
